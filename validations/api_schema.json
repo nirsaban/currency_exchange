@@ -1,0 +1,15 @@
+{
+    "CREATE_CURRENCY_WATCHED": {
+        "Currency_symbol": {
+            "required": true,
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 15
+        },
+        "Threshold": {
+            "required": true,
+            "type": "string",
+            "minLength": 2
+        }
+    }
+}
